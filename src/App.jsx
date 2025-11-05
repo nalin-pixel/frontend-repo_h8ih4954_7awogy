@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import HeroBanner from './components/HeroBanner';
 import EventFilterBar from './components/EventFilterBar';
 import EventCard from './components/EventCard';
+import ThemeToggle from './components/ThemeToggle';
+import Footer from './components/Footer';
 
 const seedEvents = [
   {
@@ -127,11 +129,8 @@ const App = () => {
         )}
       </main>
 
-      <footer className="mt-10 border-t border-neutral-200 dark:border-neutral-800">
-        <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-neutral-600 dark:text-neutral-400">
-          Built with React + Tailwind. Frontend-only mock app.
-        </div>
-      </footer>
+      <Footer />
+      <ThemeToggle />
     </div>
   );
 };
