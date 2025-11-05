@@ -4,8 +4,6 @@ import Navbar from './components/Navbar';
 import HeroBanner from './components/HeroBanner';
 import EventFilterBar from './components/EventFilterBar';
 import EventCard from './components/EventCard';
-import ThemeToggle from './components/ThemeToggle';
-import Footer from './components/Footer';
 
 const seedEvents = [
   {
@@ -128,9 +126,6 @@ const App = () => {
           </div>
         )}
       </main>
-
-      <Footer />
-      <ThemeToggle />
     </div>
   );
 };
